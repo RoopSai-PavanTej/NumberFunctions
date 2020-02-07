@@ -1,0 +1,3 @@
+[console_scripts]
+Num-functions = Num_functions.Numfunctions
+

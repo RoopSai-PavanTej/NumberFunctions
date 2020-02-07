@@ -1,17 +1,17 @@
 from setuptools import setup
 
 def readme():
-	with opem('README.md') as f:
+	with open('README.md') as f:
 		README = f.read()
 	return README
 
-setup{
+setup(
 	name="Num-functions",
 	version="1.0.0",
 	description="A Python Package of various Number Functions for computing them",
 	long_description=readme(),
 	long_description_content_type="text/markdown",
-	url=
+	url="https://https://github.com/RoopSai-PavanTej/NumberFunctions",
 	author="Roop Sai Pavan Tej Pendyala",
 	author_email="roopsai84@gmail.com",
 	license="MIT",
@@ -28,4 +28,4 @@ setup{
 		]
 	},
 
-}
+)
