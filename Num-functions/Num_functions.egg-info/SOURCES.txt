@@ -7,5 +7,4 @@ Num_functions/testNumbers.py
 Num_functions.egg-info/PKG-INFO
 Num_functions.egg-info/SOURCES.txt
 Num_functions.egg-info/dependency_links.txt
-Num_functions.egg-info/entry_points.txt
 Num_functions.egg-info/top_level.txt

@@ -1,3 +1,4 @@
+# This is the source code for Numeric(Integer) computations
 def quotient(a,b):
     quo=a/b
     return(quo)
@@ -246,4 +247,13 @@ def isarmstrong(n):
         return True
     else:
         return False
+
+
+def digitproduct(n):
+    x=1
+    while(n>0):
+        r=remainder(n,10)
+        x=x*r
+        n=floordiv(n,10)
+    return(x)
 
